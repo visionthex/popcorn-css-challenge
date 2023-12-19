@@ -1,5 +1,89 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+/* Reset some default styles */
+body, h1, h2, p, button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #D4A76A; /* Main background */
+}
+
+header {
+  background-color: #FFDBAA; /* Header background */
+  text-align: left;
+  padding: 10px;
+}
+
+header h1 {
+  display: inline-block;
+  margin-right: auto; /* Push the h1 to the left */
+  color: #553100; /* Header Text */
+}
+
+nav {
+  display: inline-block;
+}
+
+nav h1 {
+  color: #553100; /* Header Text */
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffffff; /* Header Text */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #805215; /* button */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  padding: 20px;
+}
+
+.squares-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.square, .center-rectangle {
+  background-color: #ffffff; /* Header background */
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 30%; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 10); /* Box shadow */
+}
+
+.center-rectangle {
+  width: 75%; /* Adjust the width as needed */
+}
+
+.square h2, .center-rectangle h2 {
+  color: #805215; /* Header Text */
+}
+
+.square p, .center-rectangle p {
+  color: #805215; /* Header Text */
+}
+
+button {
+  background-color: #805215; /* button */
+  color: #FFF;
+  padding: 10px 20px;
+  border: black;
+  cursor: pointer;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* Add styles specific to the "About us" button */
+.center-rectangle button {
+  background-color: #805215; /* Header Text */
+}
