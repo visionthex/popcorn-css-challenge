@@ -5,3 +5,6 @@ Recreate the site below
 The colors required are in the css file.
 
 Do this via "popcorn programming" in groups.
+
+ https://visionthex.github.io/popcorn-css-challenge/
+example of site created
